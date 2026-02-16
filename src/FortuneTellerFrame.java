@@ -65,8 +65,8 @@ public class FortuneTellerFrame extends JFrame {
 
         buttonFont = new Font("Serif", Font.BOLD, 18);
 
-        fortuneButton = new JButton("read my fortune!");
-        quitButton = new JButton("quit");
+        fortuneButton = new JButton("Read My Fortune!");
+        quitButton = new JButton("Quit");
 
         fortuneButton.setFont(buttonFont);
         quitButton.setFont(buttonFont);

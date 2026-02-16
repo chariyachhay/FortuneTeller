@@ -25,18 +25,18 @@ public class FortuneTellerFrame extends JFrame {
     public FortuneTellerFrame() {
 
         // setting up the frame stuff
-        setTitle("fortune teller");
+        setTitle("Fortune Teller");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
         // ===== top panel =====
         topPanel = new JPanel();
 
-        titleFont = new Font("serif", Font.BOLD, 40);
+        titleFont = new Font("Serif", Font.BOLD, 40);
 
         ImageIcon icon = new ImageIcon(getClass().getResource("fortune.jpg"));
 
-        titleLabel = new JLabel("fortune teller", icon, JLabel.CENTER);
+        titleLabel = new JLabel("Fortune Teller", icon, JLabel.CENTER);
 
         titleLabel.setHorizontalTextPosition(JLabel.CENTER);
         titleLabel.setVerticalTextPosition(JLabel.BOTTOM);
@@ -49,7 +49,7 @@ public class FortuneTellerFrame extends JFrame {
         middlePanel = new JPanel();
         middlePanel.setLayout(new BorderLayout());
 
-        fortuneFont = new Font("serif", Font.PLAIN, 18);
+        fortuneFont = new Font("Serif", Font.PLAIN, 18);
 
         fortuneArea = new JTextArea();
         fortuneArea.setFont(fortuneFont);
@@ -63,7 +63,7 @@ public class FortuneTellerFrame extends JFrame {
         // ===== bottom panel =====
         bottomPanel = new JPanel();
 
-        buttonFont = new Font("serif", Font.BOLD, 18);
+        buttonFont = new Font("Serif", Font.BOLD, 18);
 
         fortuneButton = new JButton("read my fortune!");
         quitButton = new JButton("quit");
